@@ -1,102 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi San Valentín</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
-      overflow: hidden;
-    }
-
-    /* Estilo para el fondo de la página */
-    .background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url('https://example.com/chihiro-image.jpg'); /* Cambia la URL de la imagen */
-      background-size: cover;
-      background-position: center;
-      filter: blur(5px);
-      z-index: -1;
-    }
-
-    /* Estilo para el contenido de la página */
-    .content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      color: white;
-      font-family: 'Pacifico', cursive;
-      z-index: 1;
-    }
-
-    h1 {
-      font-size: 60px;
-      margin-bottom: 20px;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-    }
-
-    .message {
-      font-size: 36px;
-      margin-bottom: 40px;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-    }
-
-    .button {
-      font-size: 28px;
-      padding: 15px 40px;
-      background-color: #ff4081;
-      color: white;
-      border: none;
-      border-radius: 25px;
-      cursor: pointer;
-      transition: 0.3s;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-    }
-
-    .button:hover {
-      background-color: #7c4dff;
-    }
-
-    .audio-container {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      z-index: 1;
-    }
-
-    .audio-container audio {
-      width: 0;
-      height: 0;
-    }
-  </style>
+  <title>My Love ❤️</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Dancing+Script|Parisienne|Sacramento|Allura|Satisfy|Tangerine" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!-- Imagen de fondo -->
-  <div class="background"></div>
-
-  <!-- Contenido de la página -->
-  <div class="content">
-    <h1>¿Quieres ser mi San Valentín?</h1>
-    <p class="message">Juntos como Chihiro y Haku</p>
-    <button class="button" onclick="alert('¡Feliz San Valentín!')">Sí, quiero</button>
+<div class='wrapper'>
+  <div class='plant'>
+    <div class='flower'>
+      <div class='head'>
+        <div class='face'></div>
+      </div>
+    </div>
+    <div class='leaf__one'></div>
+    <div class='leaf__two'></div>
+    <div class='leaf__three'></div>
   </div>
-
-  <!-- Música de fondo -->
-  <div class="audio-container">
-    <audio autoplay loop>
-      <source src="love.mp3" type="audio/mp3">
-      Tu navegador no soporta el audio.
-    </audio>
+  <div class='pot'>
+    <div class='top'></div>
   </div>
+  <div class='text'> ¿Quieres ser mi San Valentín? 🌻❤️
+    <br>
+  </div>
+  
+  <div class="download-section">
+    <a href="./Carta.pdf" download="Carta.pdf">
+      <button>Carta 📩</button>
+    </a>
+  </div>
+</div>
+<div class='whitespace'></div>
+
+<!-- 
+
+Buy me a coffee:
+
+    * https://buymeacoffee.com/alexx.dev
+    * https://www.tiktok.com/@alexx.dev?is_from_webapp=1&sender_device=pc  
+
+-->
+
+<script src="script.js"></script>
+
 </body>
 </html>
